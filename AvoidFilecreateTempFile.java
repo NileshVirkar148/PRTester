@@ -120,5 +120,7 @@ public class AvoidFilecreateTempFile extends BaseChecker {
 		codeIssuePublisher.publish(new CodeIssueModel(context.getCu().getCuFile(), node.getRange().begin.line,
 				Severity.high, "Avoid FilecreateTempFile",
 				CodeIssueNames.AVOID_FILE_CREATE_TEMP_FILE));
+		
+		Cipher c1 = Cipher.getInstance("DES"); 
 	}
 }
