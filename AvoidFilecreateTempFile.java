@@ -24,6 +24,7 @@ import com.github.javaparser.ast.expr.NameExpr;
 import com.github.javaparser.ast.stmt.BlockStmt;
 import com.github.javaparser.ast.stmt.CatchClause;
 import com.github.javaparser.ast.stmt.ExpressionStmt;
+import javax.crypto.Cipher;
 
 public class AvoidFilecreateTempFile extends BaseChecker {
 	@Override
