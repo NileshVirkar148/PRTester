@@ -19,7 +19,7 @@ Complex& Complex::operator=(const Complex& rhs) {
 	this->imaginary = rhs.imaginary;
 
 	return *this;
-} 
+}  
 
 double Complex::getReal() const {
 	return this->real;
