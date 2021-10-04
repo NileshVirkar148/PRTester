@@ -16,7 +16,7 @@ Complex::~Complex() {
 
 Complex& Complex::operator=(const Complex& rhs) {
 	this->real = rhs.real;
-	this->imaginary = rhs.imaginary;
+	this->imaginary = rhs.imaginary; 
 
 	return *this;
 }  
