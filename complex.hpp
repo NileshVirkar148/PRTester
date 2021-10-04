@@ -16,7 +16,7 @@ private:
 	double imaginary;
 
 public:
-	// Constructor 
+	// Constructor  
 	Complex(double=0, double=0);
 	// Copy constructor
 	Complex(const Complex& rhs);  
