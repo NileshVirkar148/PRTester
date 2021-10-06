@@ -15,7 +15,7 @@ private:
 	double real;
 	double imaginary;
 
-public:
+public: 
 	// Constructor  
 	Complex(double=0, double=0);
 	// Copy constructor
