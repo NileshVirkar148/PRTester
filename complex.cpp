@@ -21,6 +21,13 @@ Complex& Complex::operator=(const Complex& rhs) {
 	return *this;
 }  
 
+Complex& Complex::operator=(const Complex& rhs) {
+	this->real = rhs.real;  
+	this->imaginary = rhs.imaginary;  
+
+	return *this;
+}  
+
 double Complex::getReal() const {
 	return this->real;
 }
