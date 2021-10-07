@@ -19,7 +19,7 @@ public:
 	// Constructor  
 	Complex(double=0, double=0);
 	// Copy constructor
-	Complex(const Complex& rhs);  
+	Complex(const Complex& rhs);   
 	// Destructor
 	~Complex();
 	// Assigment operator
