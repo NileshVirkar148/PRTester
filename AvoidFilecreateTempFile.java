@@ -29,7 +29,7 @@ public class AvoidFilecreateTempFile extends BaseChecker {
 	@Override
 	protected void handleVisit(Node node, ParseContext context, ICodeIssuePublisher codeIssuePublisher)
 			throws ParserException {
-
+ 
 		MethodCallExpr md = ObjCaster.castNode(MethodCallExpr.class, node);
 
 	}
