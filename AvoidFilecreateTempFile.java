@@ -25,7 +25,7 @@ import com.github.javaparser.ast.stmt.BlockStmt;
 import com.github.javaparser.ast.stmt.CatchClause;
 import com.github.javaparser.ast.stmt.ExpressionStmt;
 
-public class AvoidFilecreateTempFile extends BaseChecker {   
+public class AvoidFilecreateTempFile extends BaseChecker {    
 	@Override
 	protected void handleVisit(Node node, ParseContext context, ICodeIssuePublisher codeIssuePublisher)
 			throws ParserException {
